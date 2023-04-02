@@ -1,0 +1,268 @@
+/* Reset Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #f8f8f8;
+}
+
+header {
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav ul li a {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.hero {
+	background-color: #F3A32F;
+	padding: 100px 0;
+	color: #fff;
+	text-align: center;
+}
+
+.hero h1 {
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #fff;
+	color: #F3A32F;
+	padding: 12px 40px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 50px;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #F3A32F;
+	color: #fff;
+}
+
+.services {
+	background-color: #fff;
+	padding: 100px 0;
+	text-align: center;
+}
+
+.services h2 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 40px;
+	color: #333;
+}
+
+.services ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.services li {
+	width: 30%;
+	background-color: #fff;
+	padding: 40px;
+	margin-bottom: 30px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	text-align: center;
+	transition: all 0.3s ease;
+}
+
+.services li:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.services img {
+	margin-bottom: 20px;
+	max-width: 100%;
+}
+
+.services h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+.services p {
+	font-size: 18px;
+	line-height: 1.5;
+	color: #666;
+}
+
+.featured {
+	background-color: #F3A32F;
+	padding: 100px 0;
+	text-align: center;
+	color: #fff;
+}
+
+.featured h2 {
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 70px;
+}
+
+.product {
+	background-color: #fff;
+	padding: 40px;
+	margin-bottom: 30px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	text-align: center;
+	transition: all 0.3s ease;
+}
+
+.product:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.product img {
+	margin-bottom: 20px;
+  max-width: 50%;
+  max-height: 50%;
+  }
+  
+  .product h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  }
+  
+  .product p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 20px;
+  }
+  
+  .product .price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F3A32F;
+  }
+  
+  .testimonials {
+  background-color: #fff;
+  padding: 100px 0;
+  text-align: center;
+  }
+  
+  .testimonials h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+  }
+  
+  .testimonial {
+  background-color: #F3A32F;
+  padding: 40px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  color: #fff;
+  }
+  
+  .testimonial:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  }
+  
+  .testimonial p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 20px;
+  }
+  
+  .testimonial .author {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  }
+  
+  footer {
+  background-color: #333;
+  padding: 50px;
+  color: #fff;
+  text-align: center;
+  }
+  
+  footer p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  }
+  
+  .social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .social-icons li {
+  margin: 0 10px;
+  }
+  
+  .social-icons a {
+  color: #fff;
+  font-size: 24px;
+  }
+  
+  .social-icons a:hover {
+  color: #F3A32F;
+  }
+  
+  @media screen and (max-width: 991px) {
+  .services li {
+  width: 45%;
+  }
+  }
+  
+  @media screen and (max-width: 767px) {
+  .services li {
+  width: 100%;
+  margin-bottom: 50px;
+  }
+  }
