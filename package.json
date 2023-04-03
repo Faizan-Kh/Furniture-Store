@@ -1,0 +1,11 @@
+{
+  "name": "web-assignment",
+  "version": "1.0.0",
+  "description": "furniture store",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.html"
+  },
+  "author": "faizan",
+  "license": "ISC"
+}

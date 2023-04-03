@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Name | Furniture Store</title>
+	<link rel="stylesheet" type="text/css" href="product.css">
+</head>
+<body>
+	<header>
+		<h1>Furniture Store</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="product.html">Products</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="product">
+			<img src="product-image.jpg" alt="Product Name">
+			<h2>Product Name</h2>
+			<p class="price">$999</p>
+			<form>
+				<label for="quantity">Quantity:</label>
+				<input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+				<button type="submit">Add to Cart</button>
+			</form>
+			<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non mauris vel erat venenatis hendrerit eu a risus. Duis ac risus ipsum. Aliquam maximus tellus quis nunc posuere, in lobortis urna malesuada.</p>
+		</section>
+		<section id="related-products">
+			<h3>Related Products</h3>
+			<div class="product">
+				<a href="#">
+					<img src="related-product-1.jpg" alt="Related Product 1">
+					<h4>Related Product 1</h4>
+					<p class="price">$599</p>
+				</a>
+			</div>
+			<div class="product">
+				<a href="#">
+					<img src="related-product-2.jpg" alt="Related Product 2">
+					<h4>Related Product 2</h4>
+					<p class="price">$799</p>
+				</a>
+			</div>
+			<div class="product">
+				<a href="#">
+					<img src="related-product-3.jpg" alt="Related Product 3">
+					<h4>Related Product 3</h4>
+					<p class="price">$899</p>
+				</a>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Furniture Store</p>
+	</footer>
+</body>
+</html>
