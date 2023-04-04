@@ -18,10 +18,18 @@ a:hover {
 /* Header styles */
 header {
   background-color: #F3A32F;
-  padding: 1em;
+  
+  /* margin-bottom: 50px; */
+	/* padding: 5px; */
+	color: #fff;
+	text-align: center;
+  
 }
 
 h1 {
+  font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 20px;
   text-align: center;
   margin: 0;
   font-size: 2em;
@@ -36,7 +44,8 @@ nav ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
-  margin: 0;
+  background-color: #555;
+  margin-top: 50px;
   padding: 0;
 }
 
@@ -53,7 +62,7 @@ nav a {
   
   display: block;
   padding: 0.5em;
-  color: #333;
+  color: #fff;
 }
 
 nav a:hover {
